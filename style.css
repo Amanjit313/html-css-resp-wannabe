@@ -74,7 +74,7 @@ img {
 
 /* Media Queries */
 
-@media screen and (max-width:419px){ 
+@media screen and (max-width:720px){ 
   #lezioni{
     background-color: #F2F2CD;
     display: flex;
@@ -89,7 +89,7 @@ img {
   }
 
   img{
-    height: 100px;
+    height: 150px;
   }
 
   /* MQ - Header */
@@ -129,6 +129,18 @@ img {
     margin: 0 auto;
     margin-bottom: 20px;
     width: 100%;
+  }
+
+  #why .row img{
+    height: 85px;
+  }
+
+}
+
+@media screen and (max-width:419px){ 
+
+  img{
+    height: 100px;
   }
 
   #why .row img{
